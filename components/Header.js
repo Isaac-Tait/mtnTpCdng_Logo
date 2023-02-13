@@ -1,10 +1,12 @@
 import Link from 'next/link';
 
+import Logo from '../components/Logo';
+
 const Header = () => {
   return (
     <div className="grid grid-cols-2">
       <div>
-        <h1 className="text-3xl font-semibold">My Awesome Site</h1>
+        <Logo />
       </div>
       <div className="flex justify-end mr-2 space-x-4 text-xs italic">
         <Link href="https://mountaintopcoding.dev">Login</Link>

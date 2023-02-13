@@ -12,7 +12,6 @@ const Footer = () => {
               href="https://nextjs.org/"
               className="text-indigo-500 hover:text-amber-400"
               target="_blank"
-              rel="noopener noreferrer"
             >
               Next.js
             </Link>
@@ -21,18 +20,13 @@ const Footer = () => {
               href="https://tailwindcss.com"
               className="text-indigo-500 hover:text-lime-400"
               target="_blank"
-              rel="noopener noreferrer"
             >
               TailwindCSS
             </Link>
           </p>
         </div>
         <div className="mt-2 flex justify-center w-1/3">
-          <Link
-            href="https://github.com/Isaac-Tait/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="https://github.com/Isaac-Tait/" target="_blank">
             <Image
               src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1653865755/GitHub/GitHub-Mark-64px_c6czf5.png"
               height={20}
@@ -48,8 +42,6 @@ const Footer = () => {
               href="https://mountaintopcoding.dev"
               className="text-indigo-500 hover:text-fuchsia-400"
               target="_blank"
-              rel="noopener noreferrer"
-              legacyBehavior
             >
               mountainTopCoding(
               <span role="img" aria-label="mountain with snow-cap">
