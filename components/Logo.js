@@ -1,7 +1,7 @@
 const Logo = () => {
   return (
     <div className="flex text-8xl font-extrabold p-20">
-      <h1 className="font-julee tracking-widest inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
+      <h1 className="font-julee pb-4 tracking-widest inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
         mountainTopCoding(
       </h1>
       <p className="-mt-3">
